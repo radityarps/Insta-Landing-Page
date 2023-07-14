@@ -107,5 +107,26 @@
   gap: 5px;
 }
 #about {
-  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.about-meta {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.about-meta .bi-meta {
+  color: var(--blue);
+}
+#about > h3 {
+  padding: 10px;
+  width: 80vw;
 }
