@@ -99,6 +99,13 @@
   font-weight: bolder;
   font-size: 30px;
 }
+.meta {
+  font-size: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 #about {
   height: 200vh;
 }
