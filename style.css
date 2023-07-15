@@ -123,6 +123,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  gap: 5px;
 }
 .about-meta .bi-meta {
   color: var(--blue);
