@@ -135,6 +135,14 @@
 #features {
   margin: -20px;
 }
+.icon-features {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+.icon-features > svg {
+  padding: 10px;
+}
 .instagram-features {
   padding-top: 20px;
 }
