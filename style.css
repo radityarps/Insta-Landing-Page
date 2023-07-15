@@ -143,6 +143,11 @@
     width: 80vw;
   }
 }
+@media (max-width: 800px) and (max-height: 700px) {
+  .phone {
+    display: none;
+  }
+}
 @media (max-width: 580px) {
   .phone {
     display: none;
