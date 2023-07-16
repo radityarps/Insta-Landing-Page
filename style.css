@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 :root {
   --blue: #405de6;
@@ -15,6 +14,10 @@
   --orange-yellow: #fcaf45;
   --orange: #f77737;
   --yellow: #ffdc80;
+}
+body {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 .gradient-bg {
   background: linear-gradient(
@@ -47,8 +50,8 @@
   border-radius: 30px;
   position: relative;
   box-shadow: -40px 40px 60px 0px #494949;
+  overflow: hidden;
 }
-
 .notch {
   width: 150px;
   height: 30px;
@@ -60,7 +63,6 @@
   z-index: 100;
   border-radius: 30px;
 }
-
 .screen {
   width: 200px;
   height: 425px;
@@ -81,12 +83,16 @@
   background: #007fff;
   position: relative;
 }
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
 #home {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .home-text {
   display: flex;
   flex-direction: column;
@@ -117,7 +123,6 @@
   text-align: justify;
   font-size: 40px;
   width: 80vw;
-  margin: 0 auto;
   padding-top: 80px;
 }
 .instagram-text {
@@ -146,8 +151,8 @@
 .instagram-features {
   padding-top: 20px;
 }
-.gallery {
-  margin-top: 20px;
+.carousel {
+  padding-top: 80px;
 }
 .download-now {
   height: 100vh;
