@@ -187,9 +187,18 @@ body {
 }
 .meta-text .bi-meta {
   color: var(--blue);
+  width: 60px;
+  height: auto;
 }
 footer {
   background-color: rgba(222, 222, 224, 0.918);
+}
+@media (max-width: 884px) {
+  .download-now {
+    height: unset;
+    gap: 10px;
+    margin: 80px 0;
+  }
 }
 @media (max-width: 800px) {
   #home {
@@ -213,5 +222,32 @@ footer {
   }
   .home-text {
     width: 80vw;
+  }
+  .about-instagram {
+    font-size: 30px;
+    width: 90vw;
+  }
+  .instagram-text {
+    font-size: 30px;
+  }
+  .instagram-text img {
+    width: 30px;
+  }
+  .download-now {
+    height: unset;
+    gap: 10px;
+  }
+  .download-now p {
+    font-size: 30px;
+  }
+  .about-meta {
+    font-size: 25px;
+    width: 95vw;
+  }
+  .meta-text {
+    font-size: 35px;
+  }
+  .meta-text .bi-meta {
+    width: 40px;
   }
 }
